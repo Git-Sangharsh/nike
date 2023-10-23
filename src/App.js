@@ -56,7 +56,7 @@ class App extends Component {
 
     // const { trySize, aboutUsRef, cartItem, mainSize } = this.state;
     const { trySize, aboutUsRef } = this.state;
-    console.log("signUpName is ", this.state.signUpName);
+    // console.log("signUpName is ", this.state.signUpName);
     // console.log("cartItem is ", cartItem);
     // console.log("mainSize is ", mainSize);
 

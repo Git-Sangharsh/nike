@@ -15,7 +15,7 @@ const Products = ({ cartItem, setCartItem }) => {
 
 
   const passingProduct = (i) => {
-    console.log(i.id);
+    // console.log(i.id);
   };
   return (
     <div className="Products">
