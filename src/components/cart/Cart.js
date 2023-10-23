@@ -23,10 +23,10 @@ const Cart = (props) => {
     setLoading(true);
     console.log("Loading is true")
 
-    setTimeout(() => {
-      setLoading(false);
-      console.log("Loading is false");
-    },2000)
+    // setTimeout(() => {
+    //   setLoading(false);
+    //   console.log("Loading is false");
+    // },2000)
   }
 
   const handleQuantityChange = (e) => {
