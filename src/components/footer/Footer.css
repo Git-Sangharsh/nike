@@ -1,0 +1,116 @@
+.Footer{
+    background-color: #111111;
+    color:  white;
+}
+
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.find-store{
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.find-store > h1{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.5cm;
+}
+
+
+.get-help{
+    margin: 20px 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.get-help > h1{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.get-help > h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #313030;
+    line-height: 0.2cm;
+    transition: 0.3s;
+}
+
+.get-help > h4:hover{
+    color: white;
+    scale: 1.1;
+}
+
+.about-nike{
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.about-nike > h1{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about-nike > h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #313030;
+    line-height: 0.2cm;
+    transition: 0.3s;
+}
+
+.about-nike > h3:hover{
+    color: white;
+    scale: 1.1;
+}
+
+@media (max-width: 667px){
+
+    .get-help{
+        margin: 20px 30px;
+    }
+
+    .find-store > h1{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .get-help > h1{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .get-help > h4{
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .about-nike > h1{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .about-nike > h3{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-wrapper{
+        height: 500px;
+    }
+}

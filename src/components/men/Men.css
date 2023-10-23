@@ -1,0 +1,139 @@
+.video-css{
+    width: 60vw;
+    border-radius: 30px;
+    box-shadow: 8px 10px 6px 0px #0d0d0d20;
+    margin: 10px;
+}
+
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: -60px;
+    padding: 30px;
+    border-bottom: 1px solid #111111;
+    padding-top: 50px;
+}
+.Products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 1366px){
+    .ad{
+        margin: 0px;
+    }
+    .ad > h1{
+        font-size: 15px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .ad > h1:hover{
+        text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.208);
+    }
+}
+
+@media (max-width: 1366px){
+    .ad{
+        margin: 0px;
+    }
+    .ad > h1{
+        font-size: 15px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .ad > h1:hover{
+        text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.208);
+    }
+}
+
+@media (max-width: 1024px){
+    .Products{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .ad{
+        margin-bottom: 20px;
+    }
+    /* .products-wrapper{
+        border: 2px solid red;
+    }
+
+    .main-api-div{
+        border: 1px solid red;
+    } */
+
+    .card-img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 425px){
+    .Products{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .ad{
+        margin-bottom: 20px;
+    }
+
+    .card-img{
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 375px){
+    .Products{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .products-wrapper{
+        width: 100%;
+    }
+    .ad{
+        margin-bottom: 20px;
+    }
+
+    .card-img{
+        width: 150px;
+    }
+
+    .main-api-div{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .Products{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .products-wrapper{
+        width: 100%;
+    }
+    .ad{
+        margin-bottom: 20px;
+    }
+
+    .card{
+        padding: 5px;
+    }
+    .card-img{
+        width: 120px;
+    }
+
+    .main-api-div{
+        padding: 10px;
+    }
+}

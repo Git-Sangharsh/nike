@@ -1,0 +1,143 @@
+.Signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+}
+
+.signup-wrapper{
+    box-shadow: 6px 6px 6px #11111129;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 20vw;
+}
+
+.signup-wrapper > h4{
+    margin: 5px;
+}
+
+.common-in-inp{
+    width: 15vw;
+    padding: 5px;
+}
+
+.common-in-inp:hover{
+    background-color: black;
+    color: white;
+}
+
+.common-in-inp:focus{
+    background-color: black;
+    color: white;
+}
+
+button > a{
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    font-size: 10px;
+}
+
+button > a:hover{
+    color: white;
+}
+
+.signup-wrapper > a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 10px;
+}
+
+.signup-wrapper > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signup-btn{
+    padding: 2px;
+    width: max-content;
+    background-color: white;
+    color: #111111;
+    width: 80px;
+    outline: none;
+    border: 1px solid #111111;
+    margin: 10px;
+    font-size: bolder;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+button > a{
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    font-size: 10px;
+}
+.signup-btn > a{
+    color: black;
+}
+.signup-btn:hover{
+    scale: 1.1;
+    color: white;
+    background-color: #111111;
+}
+.signup-wrapper{
+    margin-bottom: 15px;
+}
+.signup-wrapper > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.exist-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.exist-div > h1{
+    font-size: 16px;
+    color: red;
+    margin: 0;
+}
+
+@media (max-width: 1440px){
+    .Signup{
+        height: 100vh;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .Signup{
+        height: 100vh;
+    }
+
+    .signup-wrapper{
+        width: 300px;
+    }
+
+    .common-in-inp{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 375px){
+    .Signup{
+        height: 100vh;
+    }
+
+    .signup-wrapper{
+        width: 300px;
+    }
+
+    .common-in-inp{
+        width: 200px;
+    }
+}

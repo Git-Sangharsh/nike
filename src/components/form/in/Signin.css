@@ -1,0 +1,176 @@
+.Signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+/* .signin-img{
+    width: 100px;
+    margin: 30px;
+} */
+
+.signin-wrapper{
+    box-shadow: 6px 6px 6px #11111129;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 320px;
+}
+
+.signin-wrapper > h4{
+    margin: 5px;
+}
+
+.inp-email, .inp-text{
+    width: 15vw;
+    padding: 5px;
+}
+
+.common-inp:hover{
+    background-color: black;
+    color: white;
+}
+
+.common-inp:focus{
+    background-color: black;
+    color: white;
+}
+
+.signin-wrapper > h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signin-wrapper > a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 10px;
+}
+
+.signin-wrapper > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signin-btn{
+    padding: 2px;
+    width: max-content;
+    background-color: white;
+    color: #111111;
+    width: 80px;
+    outline: none;
+    border: 1px solid #111111;
+    margin: 10px;
+    font-size: bolder;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+button > a{
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    font-size: 10px;
+}
+
+.signin-btn:hover{
+    scale: 1.1;
+    color: white;
+    background-color: #111111;
+}
+
+.user-not-found > h1{
+    color: red;
+    font-size: 16px;
+}
+
+.wrong-credential > h1{
+    color: red;
+    font-size: 16px;
+}
+
+@media (max-width: 1440px){
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+    .common-inp{
+        width: 200px;
+    }
+}
+
+@media (max-width: 1024px){
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+    .common-inp{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+    .common-inp{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 425px){
+
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+
+    .signin-wrapper{
+        margin-top: 0px;
+        width: 300px;
+    }
+    .common-inp{
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 375px){
+
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+
+    .signin-wrapper{
+        margin-top: 0px;
+        width: 250px;
+    }
+    .common-inp{
+        width: 150px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .Signin{
+        border: 3px solid black;
+        height: 100vh;
+    }
+
+    .signin-wrapper{
+        margin-top: 0;
+        width: 200px;
+    }
+    .common-inp{
+        width: 120px;
+    }
+}
