@@ -91,14 +91,16 @@ class Signup extends React.Component {
           />
           {this.state.redirection ? (
             <button onClick={handelSignUpButton} className="signup-btn">
-              <Link to={"/signin"}>Register</Link>
+              <Link to={"https://nike-frontend69.onrender.com/signin"}>
+                Register
+              </Link>
             </button>
           ) : (
             <button onClick={handelSignUpButton} className="signup-btn">
               Register
             </button>
           )}
-          <Link to={"/signin"}>
+          <Link to={"https://nike-frontend69.onrender.com/signin"}>
             <h2>Sign In</h2>
           </Link>
         </div>

@@ -42,16 +42,16 @@ class Navbar extends Component {
       <div className="parrent-nav">
         <div className="Navbar">
           <div className="nav-wrapper">
-            <Link to={`/`}>
+            <Link to={`https://nike-frontend69.onrender.com/`}>
               <div className="nike-logo">
                 <img src={logo} alt="" />
               </div>
             </Link>
             <div className="nike-headers">
-              <Link to={"/"}>
+              <Link to={"https://nike-frontend69.onrender.com/"}>
                 <h1>Home</h1>
               </Link>
-              <Link to={"/men"}>
+              <Link to={"https://nike-frontend69.onrender.com/men"}>
                 <h1>Men</h1>
               </Link>
               <h1 onClick={scrollToAboutUs}>About Us</h1>
@@ -62,11 +62,11 @@ class Navbar extends Component {
                   <FontAwesomeIcon className="icon-class" icon={faUser} />
                 </div>
               ) : (
-                <Link to={"/signin"}>
+                <Link to={"https://nike-frontend69.onrender.com/signin"}>
                   <FontAwesomeIcon className="icon-class" icon={faUser} />
                 </Link>
               )}
-              <Link to={"/cart"}>
+              <Link to={"https://nike-frontend69.onrender.com/cart"}>
                 <FontAwesomeIcon className="icon-class" icon={faCartShopping} />
               </Link>
             </div>
