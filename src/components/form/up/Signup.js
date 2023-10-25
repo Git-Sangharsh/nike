@@ -41,7 +41,7 @@ class Signup extends React.Component {
         };
 
         axios
-          .post("http://localhost:8080/signup", registerData)
+          .post("https://nike-backend-5ara.onrender.com/signup", registerData)
           .then((response) => {
             const message = response.data.message;
             const exist = response.data.exist;
@@ -54,7 +54,7 @@ class Signup extends React.Component {
             if (message === "success") {
               this.setState({ redirection: true });
               this.props.updateLoginState(true);
-              this.props.setDiffrent( signUpName );
+              this.props.setDiffrent(signUpName);
             }
             if (exist === "alreadyExist") {
               this.setState({ exist: true });
