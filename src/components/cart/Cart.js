@@ -126,7 +126,8 @@ const Cart = (props) => {
                           {loading ? (
                               <h1>
                             <img
-                              src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif"
+                              
+                              src="https://media.tenor.com/6ZkJEn80W7kAAAAC/green-tick.gif"
                               alt=""
                             /></h1>
                           ) : (
