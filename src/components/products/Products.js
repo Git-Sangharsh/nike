@@ -22,10 +22,7 @@ const Products = ({ cartItem, setCartItem }) => {
       <div className="products-wrapper">
         {mainData?.map((i) => (
           <div className="main-api-div" onClick={setCartItem} key={i.id}>
-            <Link
-              to={`https://nike-frontend69.onrender.com/data/${i.id}`}
-              style={{ textDecoration: "none" }}
-            >
+            <Link to={`/data/${i.id}`} style={{ textDecoration: "none" }}>
               <div
                 className="card"
                 key={i.id}

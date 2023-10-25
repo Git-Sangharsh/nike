@@ -19,7 +19,7 @@ const Men = () => {
   return (
     <div className="Products">
       <div className="ad">
-        <h1>Step into unreal speed with Kylin Mbappe</h1>
+          <h1>Step into unreal speed with Kylin Mbappe</h1>
         <video className="video-css" muted autoPlay loop>
           <source src={kylin} type="video/mp4" />
         </video>
@@ -27,15 +27,8 @@ const Men = () => {
       <div className="products-wrapper">
         {mainData?.map((i) => (
           <div className="main-api-div" key={i.id}>
-            <Link
-              to={`https://nike-frontend69.onrender.com/data/${i.id}`}
-              style={{ textDecoration: "none" }}
-            >
-              <div
-                className="card"
-                key={i.id}
-                onClick={() => passingProduct(i)}
-              >
+            <Link to={`/data/${i.id}`} style={{textDecoration: "none"}}>
+              <div className="card" key={i.id} onClick={ () => passingProduct(i)}>
                 <img src={i.img} className="card-img" alt="" />
                 <h1 className="card-headers">Available in SNKRS</h1>
                 <h2 className="card-headers">{i.title}</h2>
@@ -47,7 +40,7 @@ const Men = () => {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
 export default Men

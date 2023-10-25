@@ -68,7 +68,7 @@ class App extends Component {
           </Helmet>
           <Routes>
             <Route
-              path="https://nike-frontend69.onrender.com/"
+              path="/"
               element={
                 <div>
                   <Navbar
@@ -92,7 +92,7 @@ class App extends Component {
               }
             />
             <Route
-              path="https://nike-frontend69.onrender.com/men"
+              path="/men"
               element={
                 <div>
                   <Navbar
@@ -108,7 +108,7 @@ class App extends Component {
               }
             />
             <Route
-              path="https://nike-frontend69.onrender.com/data/:id"
+              path="/data/:id"
               element={
                 <div>
                   <Navbar
@@ -129,7 +129,7 @@ class App extends Component {
               }
             />
             <Route
-              path="https://nike-frontend69.onrender.com/cart/:id"
+              path="cart/:id"
               element={
                 <div>
                   <Navbar
@@ -150,7 +150,7 @@ class App extends Component {
               }
             />
             <Route
-              path="https://nike-frontend69.onrender.com/signin"
+              path="/signin"
               element={
                 <Signin
                   updateLoginState={this.updateLoginState}
@@ -163,7 +163,7 @@ class App extends Component {
             />
 
             <Route
-              path="https://nike-frontend69.onrender.com/signup"
+              path="/signup"
               element={
                 <Signup
                   updateLoginState={this.updateLoginState}
@@ -172,7 +172,7 @@ class App extends Component {
               }
             />
             <Route
-              path="https://nike-frontend69.onrender.com/cart"
+              path="/cart"
               element={
                 <div>
                   <Cart

@@ -133,10 +133,7 @@ const Cart = (props) => {
                           )}
                         </div>
                       ) : (
-                        <Link
-                          to={"https://nike-frontend69.onrender.com/signin"}
-                          className="no-checkout"
-                        >
+                        <Link to={"/signin"} className="no-checkout">
                           <button>Sign IN</button>
                         </Link>
                       )}

@@ -98,11 +98,7 @@ const handelSize = (z) => {
                   )
                 ) : viewSubproduct[0] && viewSubproduct[0].sizes ? (
                   viewSubproduct[0].sizes.map((i) => (
-                    <div
-                      className="select-size-btn"
-                      key={i.id}
-                      onClick={() => props.anotherSize(i.size)}
-                    >
+                    <div className="select-size-btn" key={i.id} onClick={() => props.anotherSize(i.size)}>
                       <button onClick={() => handelSize(i.size)}>
                         {i.size}
                       </button>
@@ -118,10 +114,7 @@ const handelSize = (z) => {
                   //if shoes size is selected change the root
                   shoesSize
                     ? viewSubproduct?.map((i) => (
-                        <Link
-                          to={`https://nike-frontend69.onrender.com/cart/${i.id}`}
-                          key={i.id}
-                        >
+                        <Link to={`/cart/${i.id}`} key={i.id}>
                           <button className="only-bag">Add to Bag</button>
                           <h1>{i.desc}</h1>
                         </Link>
