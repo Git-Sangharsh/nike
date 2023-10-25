@@ -41,7 +41,10 @@ class Signup extends React.Component {
         };
 
         axios
-          .post("https://nike-backend-5ara.onrender.com/signup", registerData)
+          .post(
+            "https://nike-clone-backend-d482.onrender.com/signup",
+            registerData
+          )
           .then((response) => {
             const message = response.data.message;
             const exist = response.data.exist;
