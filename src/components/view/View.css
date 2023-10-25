@@ -654,3 +654,20 @@
     width: auto;
   }
 }
+
+@media (max-width: 286px){
+
+  .known-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .select-size-btn > button {
+    padding: 10px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: bolder;
+    /* height: 50px; */
+  }
+}
