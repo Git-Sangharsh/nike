@@ -11,23 +11,21 @@ const Cart = (props) => {
 
   const mainSize = props.mainSize;
 
-
   const [mainCart, setMainCart] = useState([]);
 
   const [quantity, setQuantity] = useState(1);
 
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   const handeLoading = () => {
-
     setLoading(true);
-    console.log("Loading is true")
+    console.log("Loading is true");
 
     // setTimeout(() => {
     //   setLoading(false);
     //   console.log("Loading is false");
     // },2000)
-  }
+  };
 
   const handleQuantityChange = (e) => {
     setQuantity(e.target.value);
@@ -124,12 +122,12 @@ const Cart = (props) => {
                           onClick={handeLoading}
                         >
                           {loading ? (
-                              <h1>
-                            <img
-                              
-                              src="https://media.tenor.com/6ZkJEn80W7kAAAAC/green-tick.gif"
-                              alt=""
-                            /></h1>
+                            <h1>
+                              <img
+                                src="https://media.tenor.com/6ZkJEn80W7kAAAAC/green-tick.gif"
+                                alt=""
+                              />
+                            </h1>
                           ) : (
                             <button className="checkout-btn">CheckOut</button>
                           )}
