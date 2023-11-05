@@ -17,6 +17,8 @@ const Cart = (props) => {
 
   const [loading, setLoading] = useState(false);
 
+  const [buy, setBuy] = useState(false)
+
   const handeLoading = () => {
     setLoading(true);
     console.log("Loading is true");
@@ -69,7 +71,16 @@ const Cart = (props) => {
                       <h1>{i.title}</h1>
                       <h2>Men's Shoes</h2>
                       <div className="size-quant">
-                        <h3>
+                        {
+                          buy ? (
+                          <h3>
+                          Quantity
+                          <br></br>
+
+                            {quantity}
+                          </h3>
+                          ) : (
+                            <h3>
                           Quantity
                           <br></br>
                           <select
@@ -86,6 +97,9 @@ const Cart = (props) => {
                             <option value="8">8</option>
                           </select>
                         </h3>
+                          )
+                        }
+
                         <h3>
                           size <br></br> {mainSize}
                         </h3>
@@ -129,7 +143,7 @@ const Cart = (props) => {
                               />
                             </h1>
                           ) : (
-                            <button className="checkout-btn">CheckOut</button>
+                            <button className="checkout-btn" onClick={() => setBuy(true)}>CheckOut</button>
                           )}
                         </div>
                       ) : (
