@@ -465,3 +465,42 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 375px){
+
+    .slider-wrapper{
+        padding-top: 20px;
+    }
+    .car-img-inner-div{
+        width: 63vw;
+    }
+
+    .shop-now{
+        position: absolute;
+        top: 66px;
+        left: 10px;
+        background-color: #fdfdfd;
+        font-size: 5px;
+        padding: 5px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 280px){
+
+    .shop-now{
+        position: absolute;
+        top: 56px;
+        left: 5px;
+        background-color: #fdfdfd;
+        font-size: 5px;
+        padding: 5px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
